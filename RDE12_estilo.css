@@ -1,0 +1,84 @@
+div{
+    background-color:mistyrose;
+    margin:10px;
+}
+
+span{
+    font-weight:bold;
+}
+
+h1#principal{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:rgb(255,0,0);
+    background-color:rgb(255,192,203);
+    border:2px solid rgb(255,20,147);
+}
+
+div.agrupamento{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgba( 255 , 181 , 255 , 1 );
+    background-color:rgb(219,112,147);
+    color:Maroon;
+    border:2px solid DeepPink;
+    margin:20px;
+    padding:10px;
+}
+
+.exemplo1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(255,0,0);
+    border:1px solid Crimson;
+    margin:10px;
+    padding:10px;
+    width:80px;
+    height:30px;
+}
+
+.exemplo2{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:rgb(220,20,60);
+    border:1px solid red;
+    margin:10px;
+    padding:10px;
+    width:100px;
+    height:50px;
+}
+
+.personalizado{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(240, 128, 128, 0.589);
+    color:Maroon;
+}
+
+.personalizado:hover{
+    color:rgb(29,7,70);
+    background-color:rgba(240, 128, 128, 0.589);
+    margin:30px;
+    padding:30px;
+}
+
+
+h1#principal :visited{
+    color:purple;
+    background-color:blue;
+}
+
+.pseudo > span{
+    display:none;
+}
+
+.pseudo:hover > span{
+    display:block;
+    background-color:dark;
+}
+
+h3::selection{
+    color:red;
+    background-color:yellow;
+}
+
+p::first-letter{
+    color:red;
+    font-size:xx-large;
+}
